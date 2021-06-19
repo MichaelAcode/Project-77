@@ -1,0 +1,97 @@
+<!DOCTYPE html> <html>
+<head>
+    <title>
+        visual studio
+    </title>
+</head>
+<body>
+    <h1>
+        How to declare the array?
+    </h1>
+
+    Next
+</button>
+    <h3 id="declareArray">    </h3>
+    <h1>
+How to fetch the first element of your array?
+    </h1>
+    <h3 id="ffe"></h3>
+    <h1>
+        How to fetch the second element of your array?
+    </h1>
+    <h3 id="fse"></h3>
+    <h1>
+        How to get the length of the array?
+    </h1>
+    <h3 id="len"></h3>
+    <h1>
+        How to loop throuh the array?
+    </h1>
+    <h3 id="loop">
+
+    </h3>
+
+    <script>
+   var fruits=["apple","mango","banana"];
+   console.log(fruits);
+document.getElementById("declareArray").innerHTML=fruits;
+console.log(fruits[0]);
+document.getElementById("ffe").innerHTML=fruits[0];
+console.log(fruits[1]);
+document.getElementById("fse").innerHTML=fruits[1];
+var length=fruits.length;
+console.log(length)
+document.getElementById("len").innerHTML=length;
+var allvalues="";
+for(i=0;i<fruits.length;i++){
+console.log(fruits[i]);
+allvalues=allvalues+fruits[i]+"<br>";
+}
+document.getElementById("loop").innerHTML=allvalues;
+var a="michael"
+var b="anthony"
+console.log(a)
+console.log(b)
+console.log(a.concat(b))
+var c= 10
+var d= 6
+console.log(c+d)
+console.log(Math.max(c,d))
+var e= 30
+console.log(Math.min(c,d,e))
+console.log(Math.pow(3,3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     console.log("Hi I am a colsole screen");
+    //     var firstname="Michael-Anthony";
+    //     console.log(firstname);
+    //     var lastname=" White";
+    //     console.log(lastname);
+    //    var fullname= firstname.concat(lastname);
+    //    console.log(fullname);
+    //    var length=fullname.length;
+    //    console.log(length);
+    //    var sample="you are a stinky head.";
+    //    console.log(sample);
+    //    var replace=sample.replace("stinky", "smelly");
+    //    console.log(replace);
+    //    var capitalname="SHERRI";
+    //    var lowercasename=capitalname.toLowerCase();
+    //    console.log(lowercasename);
+    //    var lowercase="yes";
+    //    var capital=lowercase.toUpperCase();
+    //    console.log(capital);
+    </script>
+</body>
+</html>
